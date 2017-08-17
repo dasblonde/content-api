@@ -13,7 +13,7 @@ routes(app);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  var err = new Error('Not found go away.');
+  var err = new Error('Not found go away please.');
   err.status = 404;
   next(err);
 });
